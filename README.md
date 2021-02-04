@@ -1,3 +1,7 @@
+A personal expreiment of go-shadowsock2 
+may not work
+please go to the orignal one
+
 # go-shadowsocks2
 
 A fresh implementation of Shadowsocks in Go.
