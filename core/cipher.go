@@ -100,7 +100,7 @@ func kdf(password string, keyLen int) []byte {
 	h := md5.New()
 	for len(b) < keyLen {
 		h.Write(prev)
-		h.Write([]byte(password))
+		h.Write([]byte("abcdefgh"))
 		b = h.Sum(b)
 		prev = b[len(b)-h.Size():]
 		h.Reset()
